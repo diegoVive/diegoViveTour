@@ -1,4 +1,5 @@
 "use client";
+import Popup from './components/Popup';
 
 import { useState, useEffect } from "react";
 
@@ -10,7 +11,10 @@ export default function HomePage() {
     const timer = setTimeout(() => {
       setShowPopup(true);
     }, 1000);
-    return () => clearTimeout(timer);
+    return 
+      <Popup />
+
+            () => clearTimeout(timer);
   }, []);
 
   const closePopup = () => setShowPopup(false);
