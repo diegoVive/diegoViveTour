@@ -31,7 +31,7 @@ return ({showPopup && (
     onClick={() => setShowPopup(false)}
   >
     <img
-      src="/promo-evento.jpg"
+      src="/promoevento.jpg"
       alt="Promoción del evento"
       style={{
         maxWidth: "90%",
